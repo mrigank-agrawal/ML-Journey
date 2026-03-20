@@ -14,22 +14,26 @@ AI for Financial Services. Built from scratch, with real data, every day.
 
 | Stage | Topic | Status |
 |-------|-------|--------|
-| 1 | Python Foundations | 🟡 In Progress |
-| 2 | Core ML | ⬜ Not Started |
+| 1 | Python Foundations | ✅ Complete |
+| 2 | Core ML | 🟡 In Progress |
 | 3 | Deep Learning | ⬜ Not Started |
 | 4 | MLOps & Deployment | ⬜ Not Started |
 | 5 | Specialisation & Portfolio | ⬜ Not Started |
-
 ---
 
 ## Notebooks
 
-### Stage 1 — Foundations
+### Stage 1 — Foundations ✅
 | Notebook | Description | Data Source |
 |----------|-------------|-------------|
 | [01 - UK House Prices](01-foundations/01-python-basics.ipynb) | First data analysis, bar chart of UK city prices | Manual |
 | [02 - HSBC Stock Analysis](01-foundations/02-numpy-basics.ipynb) | NumPy arrays, daily returns, volatility, moving average | Yahoo Finance (LSE) |
 | [03 - UK Banking Stocks](01-foundations/03-pandas-basics.ipynb) | Pandas, 5-bank comparison, correlation matrix, risk analysis | Yahoo Finance (LSE) |
+
+### Stage 2 — Core ML 🟡
+| Notebook | Description | Data Source |
+|----------|-------------|-------------|
+| [01 - Linear Regression](02-core-ml/01-linear-regression-stocks.ipynb) | Predict HSBC daily returns, confirms Efficient Market Hypothesis | Yahoo Finance (LSE) |
 
 ---
 
@@ -39,9 +43,8 @@ AI for Financial Services. Built from scratch, with real data, every day.
 ![NumPy](https://img.shields.io/badge/NumPy-latest-orange)
 ![Pandas](https://img.shields.io/badge/Pandas-latest-green)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-latest-red)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)
-
----
+![Scikit--learn](https://img.shields.io/badge/scikit--learn-latest-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)---
 
 ## About Me
 
