@@ -27,6 +27,16 @@ using real UK financial market data.
   volatility_20 are the strongest predictors. Linear regression 
   cannot capture non-linear patterns — Random Forest next.
 
+### 03 - Random Forest: Ensemble Learning
+- 500 decision trees trained on same HSBC dataset
+- Direct comparison against Linear Regression — same features, 
+  different algorithm
+- **Key finding:** Random Forest underperformed Linear Regression 
+  on noisy financial data — bias-variance tradeoff in action
+- Error distribution centred at zero — no systematic bias
+- Feature importance: price vs MA dominates (mean reversion signal)
+- **Key concepts:** Ensemble learning, bagging, bias-variance tradeoff,
+  feature importance, n_estimators, max_depth, overfitting
 
 ## Key Concepts Covered
 - Linear regression and OLS optimisation
