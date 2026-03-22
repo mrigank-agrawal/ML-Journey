@@ -34,7 +34,7 @@ AI for Financial Services. Built from scratch, with real data, every day.
 | Notebook | Description | Data Source |
 |----------|-------------|-------------|
 | [01 - Linear Regression](02-core-ml/01-linear-regression-stocks.ipynb) | Predict HSBC daily returns, confirms Efficient Market Hypothesis | Yahoo Finance (LSE) |
-
+| [02 - Feature Engineering](02-core-ml/02-feature-engineering.ipynb) | 10 engineered features, data leakage discovery and fix, feature importance | Yahoo Finance (LSE) |
 ---
 
 ## Tech Stack
