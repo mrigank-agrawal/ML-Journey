@@ -38,6 +38,19 @@ using real UK financial market data.
 - **Key concepts:** Ensemble learning, bagging, bias-variance tradeoff,
   feature importance, n_estimators, max_depth, overfitting
 
+  ### 04 - Classification: Predicting Stock Direction
+- Binary classification — predict up or down for HSBC next day
+- Two models compared: Logistic Regression vs Random Forest
+- **Baseline to beat: 60.9%** — natural upward drift of markets
+- Logistic Regression: 61.22% accuracy, AUC 0.5482
+- Random Forest: 59.18% accuracy, AUC 0.5961
+- **Key finding:** Both models biased toward up days — class 
+  imbalance problem. Down day recall critically low.
+- **Key concepts:** Binary classification, precision, recall, F1,
+  confusion matrix, ROC-AUC, class imbalance, baseline accuracy
+- **Next step:** Add macro indicators and news sentiment features,
+  apply class balancing techniques
+
 ## Key Concepts Covered
 - Linear regression and OLS optimisation
 - Feature engineering from time series data

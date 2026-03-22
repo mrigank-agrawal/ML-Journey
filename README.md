@@ -36,6 +36,7 @@ AI for Financial Services. Built from scratch, with real data, every day.
 | [01 - Linear Regression](02-core-ml/01-linear-regression-stocks.ipynb) | Predict HSBC daily returns, confirms Efficient Market Hypothesis | Yahoo Finance (LSE) |
 | [02 - Feature Engineering](02-core-ml/02-feature-engineering.ipynb) | 10 engineered features, data leakage discovery and fix, feature importance | Yahoo Finance (LSE) |
 | [03 - Random Forest](02-core-ml/03-random-forest-stocks.ipynb) | Ensemble learning, 500 trees vs linear regression, bias-variance tradeoff | Yahoo Finance (LSE) |
+| [04 - Classification](02-core-ml/04-classification-stock-direction.ipynb) | Binary classification, logistic regression vs random forest, confusion matrix, ROC-AUC | Yahoo Finance (LSE) |
 ---
 
 ## Tech Stack
