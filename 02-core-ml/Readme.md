@@ -67,6 +67,22 @@ using real UK financial market data.
   one-hot encoding, threshold tuning, business cost analysis,
   GDPR Right to Explanation, explainable AI
 
+### 06 - Full ML Pipeline: UK Property Price Prediction
+- Real HM Land Registry data — 868,699 UK property transactions 2024
+- scikit-learn Pipeline — imputation + scaling + encoding + model
+- Two pipelines compared: Random Forest vs XGBoost
+- **Key finding:** XGBoost AUC 0.8255 (CV) — property type and 
+  location explain 82% of above/below median price signal
+- 5-fold cross-validation — std dev 0.0014, extremely stable
+- Data leakage caught again — AUC dropped from 0.9996 to 0.8208
+- Feature importance matches real estate domain knowledge exactly:
+  Detached > London > Semi-detached > Bristol/Manchester
+- **Key concepts:** sklearn Pipeline, ColumnTransformer, 
+  StandardScaler, OneHotEncoder, StratifiedKFold, 
+  cross-validation, hyperparameter tuning
+- **Data source:** HM Land Registry Price Paid Data (gov.uk)
+
+
 ## Key Concepts Covered
 - Linear regression and OLS optimisation
 - Feature engineering from time series data

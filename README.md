@@ -15,8 +15,8 @@ AI for Financial Services. Built from scratch, with real data, every day.
 | Stage | Topic | Status |
 |-------|-------|--------|
 | 1 | Python Foundations | ✅ Complete |
-| 2 | Core ML | 🟡 In Progress |
-| 3 | Deep Learning | ⬜ Not Started |
+| 2 | Core ML | ✅ Complete |
+| 3 | Deep Learning | 🟡 In Progress |
 | 4 | MLOps & Deployment | ⬜ Not Started |
 | 5 | Specialisation & Portfolio | ⬜ Not Started |
 ---
@@ -38,6 +38,7 @@ AI for Financial Services. Built from scratch, with real data, every day.
 | [03 - Random Forest](02-core-ml/03-random-forest-stocks.ipynb) | Ensemble learning, 500 trees vs linear regression, bias-variance tradeoff | Yahoo Finance (LSE) |
 | [04 - Classification](02-core-ml/04-classification-stock-direction.ipynb) | Binary classification, logistic regression vs random forest, confusion matrix, ROC-AUC | Yahoo Finance (LSE) |
 | [05 - XGBoost Credit Risk](02-core-ml/05-xgboost-credit-risk.ipynb) | XGBoost vs Random Forest, AUC 0.80, threshold tuning saves £205k in bad loans | UCI German Credit Dataset |
+| [06 - ML Pipeline](02-core-ml/06-ml-pipeline.ipynb) | Full sklearn pipeline, 868k Land Registry transactions, AUC 0.82, 5-fold CV | HM Land Registry (gov.uk) |
 
 ---
 
