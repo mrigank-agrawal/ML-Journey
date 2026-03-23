@@ -37,6 +37,8 @@ AI for Financial Services. Built from scratch, with real data, every day.
 | [02 - Feature Engineering](02-core-ml/02-feature-engineering.ipynb) | 10 engineered features, data leakage discovery and fix, feature importance | Yahoo Finance (LSE) |
 | [03 - Random Forest](02-core-ml/03-random-forest-stocks.ipynb) | Ensemble learning, 500 trees vs linear regression, bias-variance tradeoff | Yahoo Finance (LSE) |
 | [04 - Classification](02-core-ml/04-classification-stock-direction.ipynb) | Binary classification, logistic regression vs random forest, confusion matrix, ROC-AUC | Yahoo Finance (LSE) |
+| [05 - XGBoost Credit Risk](02-core-ml/05-xgboost-credit-risk.ipynb) | XGBoost vs Random Forest, AUC 0.80, threshold tuning saves £205k in bad loans | UCI German Credit Dataset |
+
 ---
 
 ## Tech Stack

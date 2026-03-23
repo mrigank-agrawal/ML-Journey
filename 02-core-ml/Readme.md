@@ -51,6 +51,22 @@ using real UK financial market data.
 - **Next step:** Add macro indicators and news sentiment features,
   apply class balancing techniques
 
+  ### 05 - XGBoost: Credit Risk Prediction
+- German Credit Risk dataset — 1000 loan applicants, 20 features
+- One-hot encoding of 13 categorical variables → 48 features
+- XGBoost vs Random Forest — AUC 0.8056 vs 0.7924
+- Early stopping — XGBoost converged in just 20 trees vs 500
+- **Key finding:** Credit risk is highly predictable (AUC 0.80) 
+  unlike stock prices (AUC 0.59) — measurable human behaviour 
+  vs efficient markets
+- Threshold tuning — moving threshold from 0.5 to 0.55 saved 
+  £205,000 in bad loans — business cost translation of ML metrics
+- Feature importance maps perfectly to finance intuition — 
+  checking account, credit history, loan duration top predictors
+- **Key concepts:** XGBoost, boosting vs bagging, early stopping,
+  one-hot encoding, threshold tuning, business cost analysis,
+  GDPR Right to Explanation, explainable AI
+
 ## Key Concepts Covered
 - Linear regression and OLS optimisation
 - Feature engineering from time series data
