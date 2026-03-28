@@ -30,7 +30,7 @@ AI for Financial Services. Built from scratch, with real data, every day.
 | [02 - HSBC Stock Analysis](01-foundations/02-numpy-basics.ipynb) | NumPy arrays, daily returns, volatility, moving average | Yahoo Finance (LSE) |
 | [03 - UK Banking Stocks](01-foundations/03-pandas-basics.ipynb) | Pandas, 5-bank comparison, correlation matrix, risk analysis | Yahoo Finance (LSE) |
 
-### Stage 2 — Core ML 🟡
+### Stage 2 — Core ML ✅
 | Notebook | Description | Data Source |
 |----------|-------------|-------------|
 | [01 - Linear Regression](02-core-ml/01-linear-regression-stocks.ipynb) | Predict HSBC daily returns, confirms Efficient Market Hypothesis | Yahoo Finance (LSE) |
@@ -39,6 +39,11 @@ AI for Financial Services. Built from scratch, with real data, every day.
 | [04 - Classification](02-core-ml/04-classification-stock-direction.ipynb) | Binary classification, logistic regression vs random forest, confusion matrix, ROC-AUC | Yahoo Finance (LSE) |
 | [05 - XGBoost Credit Risk](02-core-ml/05-xgboost-credit-risk.ipynb) | XGBoost vs Random Forest, AUC 0.80, threshold tuning saves £205k in bad loans | UCI German Credit Dataset |
 | [06 - ML Pipeline](02-core-ml/06-ml-pipeline.ipynb) | Full sklearn pipeline, 868k Land Registry transactions, AUC 0.82, 5-fold CV | HM Land Registry (gov.uk) |
+
+### Stage 3 — Deep Learning 🟡
+| Notebook | Description | Data Source |
+|----------|-------------|-------------|
+| [01 - Neural Network](03-deep-learning/01-neural-network-fundamentals.ipynb) | PyTorch neural network, overfitting visualised, early stopping, beats XGBoost | UCI German Credit |
 
 ---
 
